@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App using API</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c5e90fb83d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    
+    <div class="list" style="--width: 400px;--height: 50px;">
+        <div class="item">WEATHER APP USING API</div>
+        </div>
+
+    <nav>
+
+        <div class="left"><span>FORCAST</span></div>
+        <div class="right">
+            <span><i class="fa-solid fa-rotate-right"></i></span>
+            <span><i class="fa-regular fa-star"></i></span>
+            <span><i class="fa-solid fa-sun"></i></span>
+            <span><i class="fa-solid fa-ellipsis"></i></span>
+            <span><i id="search" class="fa-solid fa-magnifying-glass"></i></span>
+            <input id="textbox" type="text" placeholder="Search City">
+        </div>
+
+
+    </nav>
+
+    <main>
+
+        <div class="weather">
+
+            <div class="top">
+                <p class="cityName">CHANDIGARH</p>
+                <div><span class="emojiDisplay">☁️&nbsp;</span><span class="tempDisplay">37°C</span></div>
+                <p class="descDisplay">CLEAR SKY</p>
+            </div>
+
+            <div class="bottom">
+                <div class="first">
+                    <span>Humidity:&nbsp;&nbsp;<span id="humidityDisplay">40%</span> </span>
+                    <span>Ground Level:&nbsp;&nbsp;<span id="grndDisplay">39</span> </span>
+                    <span>Wind:&nbsp;&nbsp;<span id="windDisplay">3km/hr</span> </span>
+                </div>
+                <div class="second">
+                    <span>Pressure:&nbsp;&nbsp;<span id="Pressure">40%</span> </span>
+                    <span>Feels Like:&nbsp;&nbsp;<span id="Feels_Like">39</span> </span>
+                    <span>Country:&nbsp;&nbsp;<span id="CountryName">3km/hr</span> </span>
+                </div>
+                <div class="third">
+                    <span>Visiblity:&nbsp;&nbsp;<span id="Visiblity">40%</span> </span>
+                    <span>Sea Level:&nbsp;&nbsp;<span id="Sea_Level">39</span> </span>
+                    <span>Time Zone:&nbsp;&nbsp;<span id="Time_Zone">3km/hr</span> </span>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
